@@ -71,12 +71,3 @@ make clean all
 ```
 
 Legacy course IDs (`req_4`, `op_17`, …) still work as aliases in `select-kernels.sh`.
-
-## Benchmark table (fill from your runs)
-
-| Configuration | Tokens/s (decode) | Prefill ms | Notes |
-|---------------|-------------------|------------|-------|
-| baseline (M1) | _TBD_ | _TBD_ | `make baseline` |
-| optimized (default) | _TBD_ | _TBD_ | |
-| KV-cache enabled | _TBD_ | _TBD_ | `verify_kv_cache` |
-| Flash attention only | _TBD_ | _TBD_ | `select-kernels.sh attention-flash` |
