@@ -10,7 +10,3 @@ your team's split before publishing.
 |--------|--------------------------------|
 | Aditya | KV-cache attention, cp.async GEMM, profiling, LayerNorm/softmax, verification harness, Flash attention, tensor-core matmul, cuBLAS integration, reduction kernels |
 
-## Portfolio packaging
-
-This public repository reorganizes the course codebase for GitHub. **Confirm with all
-teammates** before publishing. Do not publish unreleased course autograder assets.
